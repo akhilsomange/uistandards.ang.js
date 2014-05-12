@@ -1,0 +1,201 @@
+@font-face{font-family:'GlobalEnglish';src:url('./globalenglish.eot');src:url('./globalenglish.eot') format('embedded-opentype'),url('./globalenglish.woff') format('woff'),url('./globalenglish.ttf') format('truetype'),url('./globalenglish.svg') format('svg');font-weight:normal;font-style:normal;}
+.ge-icon{padding:5px 4px;border-radius:4px;color:#fff;font-size:20px;background:#000;display:inline-block;line-height:18px;}
+.ge-icon.inactive{-ms-filter:"progid:dximagetransform.microsoft.alpha(opacity=40)";
+/* for IE8 in IE7 mode */
+filter:alpha(opacity=40);
+/* for IE6-IE8 */
+opacity:.4;}
+/* Use the following CSS code if you want to have a class per icon */
+/*Instead of a list of all class selectors,you can use the generic selector below,but it's slower:[class*="geicon-"]{*/
+.geicon-assignment-result,.geicon-results,.geicon-speak,.geicon-okay,.geicon-thumbs-up,.geicon-thumbs-down,.geicon-alert-failed,.geicon-correct,.geicon-stopwatch,.geicon-dots,.geicon-writing,.geicon-vocabulary,.geicon-user,.geicon-translate,.geicon-system-test,.geicon-settings,.geicon-roung-right,.geicon-round-left,.geicon-review,.geicon-record,.geicon-reading,.geicon-progress-report,.geicon-poll,.geicon-points,.geicon-placement,.geicon-page-up,.geicon-page-right,.geicon-page-left,.geicon-page-down,.geicon-overview,.geicon-okay-2,.geicon-next_level,.geicon-navigation-icon,.geicon-message-notification,.geicon-message-exclamatory,.geicon-listening,.geicon-levelprogress,.geicon-Intonation,.geicon-info,.geicon-info-alert,.geicon-grammar,.geicon-goal,.geicon-ge,.geicon-expression,.geicon-email-open,.geicon-download,.geicon-dowload-toolbar,.geicon-dange-alert,.geicon-current,.geicon-culture,.geicon-course-progress-test,.geicon-business,.geicon-audio,.geicon-assignment,.geicon-assignment-list,.geicon-arrow-right,.geicon-arrow-left,.geicon-alert-suggestion,.geicon-accents,.geicon-pronounce,.geicon-close,.geicon-offline,.geicon-sync,.geicon-bookmark,.geicon-sync_squre,.geicon-points-2,.geicon-level,.geicon-level-beg,.geicon-level-int,.geicon-level-adv,.geicon-human, .geicon-option,.geicon-englevel, .geicon-pause, .geicon-tutorials{font-family:'GlobalEnglish';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;}
+[class*="geicon-"]{font-family:'globalenglish';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;
+/* Better Font Rendering =========== */
+-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.geicon-assignment-result:before, .geicon-results:before{content:"\79";}
+.geicon-speak:before{content:"\49";}
+.geicon-okay:before{content:"\55";}
+.geicon-thumbs-up:before{content:"\24";}
+.geicon-thumbs-down:before{content:"\25";}
+.geicon-alert-failed:before{content:"\26";}
+.geicon-correct:before{content:"\28";}
+.geicon-stopwatch:before{content:"\48";}
+.geicon-dots:before{content:"\47";}
+.geicon-writing:before{content:"\41";}
+.geicon-vocabulary:before{content:"\42";}
+.geicon-user:before{content:"\43";}
+.geicon-translate:before{content:"\44";}
+.geicon-system-test:before{content:"\45";}
+.geicon-settings:before{content:"\4a";}
+.geicon-roung-right:before{content:"\4b";}
+.geicon-round-left:before{content:"\4c";}
+.geicon-review:before{content:"\4d";}
+.geicon-record:before{content:"\4e";}
+.geicon-reading:before{content:"\4f";}
+.geicon-progress-report:before{content:"\51";}
+.geicon-poll:before{content:"\52";}
+.geicon-points:before{content:"\53";}
+.geicon-placement:before{content:"\54";}
+.geicon-page-up:before{content:"\56";}
+.geicon-page-right:before{content:"\57";}
+.geicon-page-left:before{content:"\58";}
+.geicon-page-down:before{content:"\59";}
+.geicon-overview:before{content:"\5a";}
+.geicon-okay-2:before{content:"\61";}
+.geicon-next_level:before{content:"\62";}
+.geicon-navigation-icon:before{content:"\63";}
+.geicon-message-notification:before{content:"\64";}
+.geicon-message-exclamatory:before{content:"\65";}
+.geicon-listening:before{content:"\66";}
+.geicon-levelprogress:before{content:"\67";}
+.geicon-Intonation:before{content:"\68";}
+.geicon-info:before{content:"\69";}
+.geicon-info-alert:before{content:"\6a";}
+.geicon-grammar:before{content:"\6b";}
+.geicon-goal:before{content:"\6c";}
+.geicon-ge:before{content:"\6d";}
+.geicon-expression:before{content:"\6e";}
+.geicon-email-open:before{content:"\6f";}
+.geicon-download:before{content:"\70";}
+.geicon-dowload-toolbar:before{content:"\71";}
+.geicon-dange-alert:before{content:"\72";}
+.geicon-current:before{content:"\73";}
+.geicon-culture:before{content:"\74";}
+.geicon-course-progress-test:before{content:"\75";}
+.geicon-business:before{content:"\76";}
+.geicon-audio:before{content:"\77";}
+.geicon-assignment:before{content:"\78";}
+.geicon-assignment-list:before{content:"\7a";}
+.geicon-arrow-right:before{content:"\21";}
+.geicon-arrow-left:before{content:"\40";}
+.geicon-alert-suggestion:before{content:"\23";}
+.geicon-accents:before{content:"\46";}
+.geicon-pronounce:before{content:"\50";}
+/* Added on Sept 17 2013 */
+.geicon-close:before{content:"\e001";}
+.geicon-offline:before{content:"\e000";}
+.geicon-sync:before{content:"\e002";}
+.geicon-bookmark:before{content:"\e003";}
+.geicon-sync_squre:before{content:"\e004";}
+.geicon-points-2:before{content:"\e005";}
+.geicon-level:before,.geicon-level-beg:before,.geicon-level-int:before,.geicon-level-adv:before{content:"\e006";line-height:18px;}
+.geicon-human:before{content:"\e007";}
+.geicon-option:before{content:"\e008";}
+.geicon-englevel:before{content:"\e006";line-height:19px;}
+/* Above Added on Sept 17 2013 */
+.geicon-results.ge-icon{background:#9D9333}
+.geicon-speak.ge-icon{background:#E36742}
+.geicon-writing.ge-icon{background:#7C4266}
+.geicon-vocabulary.ge-icon{background:#437BA7}
+.geicon-system-test.ge-icon{background:#7F4340}
+.geicon-review.ge-icon{background:#C89E3C}
+.geicon-reading.ge-icon{background:#F99D35}
+.geicon-poll.ge-icon{background:#D79128}
+.geicon-placement.ge-icon{background:#7F4340}
+.geicon-overview.ge-icon{background:#3A6B82}
+.geicon-next_level.ge-icon{background:#CEA12C}
+.geicon-listening.ge-icon{background:#A3B439}
+.geicon-levelprogress.ge-icon{background:#7F4340}
+.geicon-grammar.ge-icon{background:#77A540}
+.geicon-expression.ge-icon{background:#009AC7}
+.geicon-assignment.ge-icon{background:#4D3613}
+.geicon-pronounce.ge-icon{background:#A23E59}
+.ge-icon.geicon-correct {background:#77c19e}
+.ge-icon.geicon-count{background:#5f889f}
+.ge-icon.geicon-okay-2 {background:#af78b4}
+.ge-icon.geicon-123{background:#5f889f}
+ .ge-icon.male{background:#5e879e}
+.ge-icon.female{background:#c08676}
+.geicon-pause:before{content:"\e601";}
+.geicon-audio.ge-icon{background:#77A540}
+.geicon-okay-2t.ge-icon{background:#af78b4}
+.geicon-presentation.ge-icon{background:#5e859e}
+.ge-icon.geicon-option{background:#999;}
+.ge-icon.geicon-tutorials{background:#6AA2B2;}
+/* Below Added on Nov 07 2013 */
+.geicon-connection:before{content:"\e600";}
+.geicon-add:before{content:"\e602";}
+.geicon-understanding:before{content:"\e603";}
+.geicon-understanding-2:before{content:"\e604";}
+.geicon-Schwa:before{content:"\e605";}
+.geicon-reduced-speech-01:before{content:"\e606";}
+.geicon-predict:before{content:"\e607";}
+.geicon-match:before{content:"\e608";}
+.geicon-link:before{content:"\e609";}
+.geicon-groups:before{content:"\e60a";}
+.geicon-find:before{content:"\e60b";}
+.geicon-dictation:before{content:"\e60c";}
+.geicon-choose:before{content:"\e60d";}
+.geicon-understanding.ge-icon{background:#b59978;}
+.geicon-understanding-2.ge-icon{background:#77BF9D;}
+.geicon-Schwa.ge-icon{background:#E68888;}
+.geicon-reduced-speech-01.ge-icon{background:#6A82B2;}
+.geicon-predict.ge-icon{background:#D28F29;}
+.geicon-match.ge-icon{background:#77BF9D;}
+.geicon-link.ge-icon{background:#8A87C1;}
+.geicon-groups.ge-icon{background:#D3783F;}
+.geicon-find.ge-icon{background:#E68888;}
+.geicon-dictation.ge-icon{background:#6AA2B2;}
+.geicon-choose.ge-icon{background:#6B98C9;}
+.geicon-sync_squre.ge-icon{background:#A23E59;}
+.geicon-home:before{content:"\e60f";}
+.geicon-home2:before{content:"\e610";}
+.geicon-envelope:before{content:"\e612";}
+.geicon-student:before{content:"\e613";}
+.geicon-popup:before{content:"\e614";}
+.geicon-orientation:before{content:"\e615";}
+.geicon-connection2:before{content:"\e617";}
+.geicon-calendar:before{content:"\e618";}
+.geicon-duration:before{content:"\e619";}
+.geicon-headset:before{content:"\e616";}
+.geicon-business-etique:before{content:"\e61a";}
+.geicon-society:before{content:"\e61b";}
+.geicon-response:before{content:"\e61c";}
+.geicon-agreement:before{content:"\e61d";}
+.geicon-bookmark02:before{content:"\e61e";}
+.geicon-business-meeting:before{content:"\e61f";}
+.geicon-business02:before{content:"\e620";}
+.geicon-clothing:before{content:"\e621";}
+.geicon-communication:before{content:"\e622";}
+.geicon-practise:before{content:"\e623";}
+.geicon-finance:before{content:"\e624";}
+.geicon-globale:before{content:"\e625";}
+.geicon-good-impression:before{content:"\e626";}
+.geicon-greetings:before{content:"\e627";}
+.geicon-human-resource:before{content:"\e628";}
+.geicon-marketing:before{content:"\e629";}
+.geicon-meeting:before{content:"\e62a";}
+.geicon-mindset:before{content:"\e62b";}
+.geicon-minus:before{content:"\e62c";}
+.geicon-money:before{content:"\e62d";}
+.geicon-motivation:before{content:"\e62e";}
+.geicon-photo:before{content:"\e62f";}
+.geicon-plus:before{content:"\e630";}
+.geicon-presentation:before{content:"\e631";}
+.geicon-study-guide:before{content:"\e632";}
+.geicon-relationship:before{content:"\e633";}
+.geicon-telephone:before{content:"\e634";}
+.geicon-time:before{content:"\e635";}
+.geicon-travel:before{content:"\e636";}
+.geicon-pdf:before{content:"\e637";}
+.geicon-help:before{content:"\e638";}
+.geicon-calendar2:before{content:"\e639";}
+.geicon-essentials:before{content:"\e63a";}
+.geicon-business-meeting2:before{content:"\e63b";}
+.geicon-education-topic:before{content:"\e63c";}
+.geicon-good-impression2:before{content:"\e63d";}
+.geicon-gifts:before{content:"\e63e";}
+.geicon-food:before{content:"\e63f";}
+.geicon-business-etique02:before{content:"\e640";}
+.geicon-print:before {content: "\e641";}
+.geicon-count:before {content: "\e642";}
+.geicon-stop:before {content: "\e643";}
+.geicon-tutorials:before {content: "\e644";}
+/****** Extra Formatting with colors **********/
+.geicon-level-beg:before{color:#7DC142;overflow:hidden;position:absolute;text-align:left;white-space:nowrap;width:5px;}
+.geicon-level-int:before{color:#7DC142;overflow:hidden;position:absolute;text-align:left;white-space:nowrap;width:10px;}
+.geicon-level-adv:before{color:#7DC142;overflow:hidden;position:absolute;text-align:left;white-space:nowrap;width:17px;}
+.geicon-level-beg, .geicon-level-int, .geicon-level-adv{display:inline-block;color:#c2c2c2}
+.blue.geicon-level-beg:before, .blue.geicon-level-int:before, .blue.geicon-level-adv:before{color:#fff;}
+.blue .geicon-englevel:before{content:"\e611";}
+.white .geicon-englevel{color:#999}
+#begicon.ge-level-icon-black:before,#inticon.ge-level-icon-black:before,#advicon.ge-level-icon-black:before{color:#ccc;}

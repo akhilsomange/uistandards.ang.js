@@ -1,0 +1,52 @@
+<!doctype html>
+<html ng-app="uiStandards">
+<head>
+<meta charset="UTF-8">
+<title>PearsonEnglish - Standards</title>
+<link rel="stylesheet" href="./css/main.css"/>
+<link rel="stylesheet" href="./css/structure.css" />
+<link rel="stylesheet" href="./css/icon-fonts.min.css" />
+<script src="./scripts/angular.min.js"></script>
+<script src="./scripts/jQuery.js"></script>
+<script src="./scripts/custom.js"></script>
+</head>
+
+<body ng-controller="HtmlListController">
+	<div class="wraper">
+        <div class="grid container" >
+        	<div class="col3 leftColumn">
+            	<h2>How to use?</h2>
+            	<div class="cpod ">
+                    <div class="menu" ng-repeat="titles in elements">
+                        <h3>{{titles.category}}</h3>
+                            <ul>
+                                <li ng-repeat="subtitles in titles.item" ng-click="updateShowcase(subtitles , titles)" ng-class="{true:'current',false:''}[currentItem.id==subtitles.id]">
+                                    <a href="#">{{subtitles.name}}</a>
+                                    
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col9 rightColumn">
+                <h2>Design View</h2>
+                <div class="cpod">
+                    <div class="showcase">
+                        <div layout-directive output="clipboard" ng-if="parentItem.id == 0" ></div>
+                        <div Messages-directive output="clipboard" ng-if="parentItem.id == 1"></div>
+                        <div Button-directive output="clipboard" ng-if="parentItem.id == 2"></div>
+                        <div Icon-directive output="clipboard" ng-if="parentItem.id == 3"></div>
+                        
+                    </div>
+                </div>
+
+                <h2>HTML</h2>
+            	<div class="cpod">
+                	<textarea class="code" id="clipboard" class="textarea" >{{clipboard}}</textarea>
+                </div>
+            </div>
+            <div class="col12" style="text-align:center;padding-top:10px;"><h2>Developed & Maintained By GlobalEnglish</h2> </div>
+        </div>
+    </div>
+</body>
+</html>
